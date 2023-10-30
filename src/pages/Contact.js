@@ -10,6 +10,7 @@ import imgcont from "public/assets/HomeImages/Contact.png.png"
 
 import Header from './Home/components/Header'
 import Map from './ContactComponents/Map'
+import Link from 'next/link'
 const Contact = () => {
   const [open,setOpen]=useState(false)
 

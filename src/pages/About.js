@@ -7,6 +7,7 @@ import Footer from './Home/components/Footer'
 import Image from 'next/image'
 import naqilogo from "public/assets/HomeImages/naqi logo 2.png"
 import Header from './Home/components/Header'
+import Link from 'next/link'
 
 const About = () => {
   const [open,setOpen]=useState(false)

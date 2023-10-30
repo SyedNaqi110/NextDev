@@ -12,6 +12,7 @@ import Footer from "./Home/components/Footer";
 import naqilogo from "public/assets/HomeImages/naqi logo 2.png";
 import Burger from "public/assets/HomeImages/Group 10.png";
 import Header from "./Home/components/Header";
+import Link from "next/link";
 
 const Expertise = () => {
   const [open, setOpen] = useState(false);

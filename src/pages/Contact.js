@@ -24,8 +24,15 @@ const Contact = () => {
               <div className="ml-5" style={{
                 marginLeft:"20px"
               }}>
-<Image alt="" src={naqilogo} className="img-fluid" width="156" height="160" />
-              </div>
+  <Link href={"/"}>
+                <Image
+                  alt=""
+                  src={naqilogo}
+                  className="img-fluid"
+                  width="156"
+                  height="160"
+                />
+                </Link>              </div>
               <div className="col-md-4 text-end mt-4" style={{
                 cursor:"pointer",
                 marginTop:"40px"

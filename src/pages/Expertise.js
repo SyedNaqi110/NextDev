@@ -31,13 +31,15 @@ const Expertise = () => {
                 marginLeft: "20px",
               }}
             >
-              <Image
-                alt=""
-                src={naqilogo}
-                className="img-fluid"
-                width="156"
-                height="160"
-              />
+               <Link href={"/"}>
+                <Image
+                  alt=""
+                  src={naqilogo}
+                  className="img-fluid"
+                  width="156"
+                  height="160"
+                />
+                </Link>
             </div>
             <div
               className="col-md-4 text-end mt-3"
